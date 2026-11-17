@@ -1,0 +1,26 @@
+/MAIN FILE
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="lab10external.css">
+</head>
+
+<body>
+    <h1>My College</h1>
+    <p>Welcome to AIMCA.</p>
+</body>
+</html>
+
+
+/CSS
+body{
+    background-color:bisque;
+}
+h1 {
+    color: purple;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    color: green;
+}
