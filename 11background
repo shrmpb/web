@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Background, Text and Font properties </title>
+    <style>
+        body{
+            background-image: url(moon.jpg);
+            background-size:cover;
+        }
+        h1
+        {
+            color:aliceblue;
+            text-decoration-line:underline;
+            text-decoration-color:rgb(218, 124, 209);
+            text-decoration-style: wavy;
+            text-decoration-thickness:2px;
+            text-shadow:3px 3px 5px rgb(237, 71, 71) ;
+            text-align: center;
+            word-spacing: 10px;
+            letter-spacing: 2px;
+        }
+        h2{
+            direction: ltr;
+            color:blueviolet
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Formate,,,,</h1>
+    <h2>controlling Fonts</h2>
+    <p style="font-family:Times New Roman";>CSS Font Family</p>
+    <p style="font-style:italic";>CSS font style</p>
+    <p style="font-variant:small-caps";>CSS font-variant</p>
+    <p style="font-weight:900";>CSS font font-weight</p>
+    <p style="font-size:small";>CSS font font-size</p>
+    <p style="font-size:larger";>CSS font larger size</p>
+    <p style="font-size:20px";>CSS font size</p>
+</body>
+</html>
