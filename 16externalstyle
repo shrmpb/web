@@ -1,0 +1,30 @@
+/MAIN FILE
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal Stylesheet Example</title>
+    <link rel="stylesheet" href="exter16.css">
+</head>
+<body>
+    <h1>External Style Sheet</h1>
+    <p>. It is written entirely in plain text, saved with a .css extension, and linked directly into the head section of one or multiple HTML documents.</p>
+</body>
+</html>
+
+
+/CSS
+body {
+    background-color:plum;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #193dcc;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: #666666;
+}
