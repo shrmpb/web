@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Formatting in HTML</title>
+</head>
+
+<body>
+
+    <h1>HTML Text Formatting</h1>
+    <hr>
+    <h2>Basic Text Formatting</h2>
+    <p>This is a <b>bold</b> text.</p>
+    <p>This is a <strong>strong/important</strong> text.</p>
+    <p>This is an <i>italic</i> text.</p>
+    <p>This is an <em>emphasized</em> text.</p>
+    <p>This is an <u>underlined</u> text.</p>
+    <p>This is a <mark>highlighted</mark> text.</p>
+    <p>This is <small>smaller text</small>.</p>
+    <p>This is <del>deleted text</del>.</p>
+    <p>This is <ins>inserted text</ins>.</p>
+    <p>Water formula: H<sub>2</sub>O</p>
+    <p>Area: x<sup>2</sup> + y<sup>2</sup></p>
+
+    <h2>Advanced Text Formatting</h2>
+    <p>Use <code>printf("Hello World");</code> to display output in C.</p>
+    <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save a file.</p>
+    <p>
+        <abbr title="HyperText Markup Language">HTML</abbr>
+        is used to create web pages.
+    </p>
+    <p>
+        The teacher said, <q>Practice makes perfect.</q>
+    </p>
+    <p>
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+    </p>
+    <pre>
+        This is a demo text  and will appear
+        in the same format as
+            it
+        is visible
+            here.
+    </pre>
+    Sample equation <var> 2x </var><var>-</var><var>2z</var>
+<var>=</var> <var>3y</var><var>+</var> 9
+</body>
+</html>
