@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Admission Form</title>
+</head>
+<body>
+<h1 align="center">COLLEGE ADMISSION FORM</h1>
+<form>
+    <label>Student Name:</label>
+    <input type="text" name="studentname">
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email">
+    <br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br><br>
+
+    <label>Select Course:</label>
+    <select name="course">
+        <option>BCA</option>
+        <option>B.Sc</option>
+        <option>B.Com</option>
+        <option>BA</option>
+    </select>
+    <br><br>
+
+    <label>Subjects Interested:</label>
+    <br>
+    <input type="checkbox" name="subject1"> Web Technology
+    <br>
+    <input type="checkbox" name="subject2"> Java
+    <br>
+    <input type="checkbox" name="subject3"> Python
+    <br><br>
+
+    <label>Address:</label>
+    <br>
+    <textarea rows="5" cols="40" name="address"></textarea>
+    <br><br>
+
+    <label>Upload Photo:</label>
+    <input type="file" name="photo">
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+</body>
+</html>
