@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multimedia components</title>
+</head>
+<body>
+    <h1 align="center">Working with Multimedia components</h1>
+    <H2>Displaying an Image</H2>
+    <img src="ai.jpg" width="150" height="200">
+    <hr>
+    <H2>Playing an Audio</H2>
+    <audio src="lavender-sentimental-cinematic.mp3" controls></audio>
+    <hr>
+    <h2>Playing a Video</h2>
+    <video controls src="success.mp4"></video>
+</body>
+</html>
