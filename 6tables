@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Timetable</title>
+</head>
+<body>
+    <h2 align="center">COLLEGE TIMETABLE</h2>
+    <table border="1" cellpadding="10" cellspacing="0" align="center">
+        <tr>
+            <th>Day</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 12:00</th>
+            <th>12:00 - 1:00</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Web Technology</td>
+            <td>Data Structure</td>
+            <td>Software Engineering</td>
+            <td rowspan="5">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>C Programming</td>
+            <td>Web Technology</td>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Data Structure</td>
+            <td>Java</td>
+            <td>Software Engineering</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Mathematics</td>
+            <td>C Programming</td>
+            <td>Web Technology</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Java</td>
+            <td>Data Structure</td>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <th colspan="5">Saturday - Holiday</th>
+        </tr>
+    </table>
+</body>
+</html>
