@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: cornflowerblue;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bolder;
+            padding:10px
+        }
+        ul{
+            list-style-image: url(arrow\(1\)\(1\).png);
+            color: blue;
+            font-size: 25px;
+            list-style-position: inside;}
+        
+        ol{
+            list-style-position: outside;
+            font-size: 25px;
+            color:palegreen;}
+    </style>
+</head>
+<body>
+    <p>Unorder List</p>
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+    </ul>
+    <p>Order List</p>
+    <ol>
+        <li>java</li>
+        <li>Python</li>
+        <li>C prog</li>
+    </ol>
+</body>
+</html>
